@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Currencies>
+<COUNTRY currency="USD" rate="1.0982"/>
+<COUNTRY currency="JPY" rate="120.43"/>
+<COUNTRY currency="BGN" rate="1.9558"/>
+<COUNTRY currency="CZK" rate="25.515"/>
+<COUNTRY currency="DKK" rate="7.4713"/>
+<COUNTRY currency="GBP" rate="0.85225"/>
+<COUNTRY currency="HUF" rate="333.82"/>
+<COUNTRY currency="PLN" rate="4.3185"/>
+<COUNTRY currency="RON" rate="4.7823"/>
+<COUNTRY currency="SEK" rate="10.4995"/>
+<COUNTRY currency="CHF" rate="1.0998"/>
+<COUNTRY currency="ISK" rate="134"/>
+<COUNTRY currency="NOK" rate="10.1045"/>
+<COUNTRY currency="HRK" rate="7.4385"/>
+<COUNTRY currency="RUB" rate="70.5544"/>
+<COUNTRY currency="TRY" rate="6.3198"/>
+<COUNTRY currency="AUD" rate="1.6228"/>
+<COUNTRY currency="BRL" rate="4.6459"/>
+<COUNTRY currency="CAD" rate="1.4614"/>
+<COUNTRY currency="CNY" rate="7.7172"/>
+<COUNTRY currency="HKD" rate="8.5954"/>
+<COUNTRY currency="IDR" rate="15490.11"/>
+<COUNTRY currency="ILS" rate="3.8136"/>
+<COUNTRY currency="INR" rate="78.6875"/>
+<COUNTRY currency="KRW" rate="1295.81"/>
+<COUNTRY currency="MXN" rate="21.4483"/>
+<COUNTRY currency="MYR" rate="4.5882"/>
+<COUNTRY currency="NZD" rate="1.709"/>
+<COUNTRY currency="PHP" rate="55.838"/>
+<COUNTRY currency="SGD" rate="1.5017"/>
+<COUNTRY currency="THB" rate="33.204"/>
+<COUNTRY currency="ZAR" rate="16.1197"/>
+</Currencies>
