@@ -1,0 +1,153 @@
+Request & Response Examples
+
+
+API Resources
+GET /api/Exchange/GetCurrencyList
+
+Response body:
+
+[
+    {
+        "currencyField": "USD",
+        "rateField": 1.0982
+    },
+    {
+        "currencyField": "JPY",
+        "rateField": 120.43
+    },
+    {
+        "currencyField": "BGN",
+        "rateField": 1.9558
+    },
+    {
+        "currencyField": "CZK",
+        "rateField": 25.515
+    },
+    {
+        "currencyField": "DKK",
+        "rateField": 7.4713
+    },
+    {
+        "currencyField": "GBP",
+        "rateField": 0.85225
+    },
+    {
+        "currencyField": "HUF",
+        "rateField": 333.82
+    },
+    {
+        "currencyField": "PLN",
+        "rateField": 4.3185
+    },
+    {
+        "currencyField": "RON",
+        "rateField": 4.7823
+    },
+    {
+        "currencyField": "SEK",
+        "rateField": 10.4995
+    },
+    {
+        "currencyField": "CHF",
+        "rateField": 1.0998
+    },
+    {
+        "currencyField": "ISK",
+        "rateField": 134
+    },
+    {
+        "currencyField": "NOK",
+        "rateField": 10.1045
+    },
+    {
+        "currencyField": "HRK",
+        "rateField": 7.4385
+    },
+    {
+        "currencyField": "RUB",
+        "rateField": 70.5544
+    },
+    {
+        "currencyField": "TRY",
+        "rateField": 6.3198
+    },
+    {
+        "currencyField": "AUD",
+        "rateField": 1.6228
+    },
+    {
+        "currencyField": "BRL",
+        "rateField": 4.6459
+    },
+    {
+        "currencyField": "CAD",
+        "rateField": 1.4614
+    },
+    {
+        "currencyField": "CNY",
+        "rateField": 7.7172
+    },
+    {
+        "currencyField": "HKD",
+        "rateField": 8.5954
+    },
+    {
+        "currencyField": "IDR",
+        "rateField": 15490.11
+    },
+    {
+        "currencyField": "ILS",
+        "rateField": 3.8136
+    },
+    {
+        "currencyField": "INR",
+        "rateField": 78.6875
+    },
+    {
+        "currencyField": "KRW",
+        "rateField": 1295.81
+    },
+    {
+        "currencyField": "MXN",
+        "rateField": 21.4483
+    },
+    {
+        "currencyField": "MYR",
+        "rateField": 4.5882
+    },
+    {
+        "currencyField": "NZD",
+        "rateField": 1.709
+    },
+    {
+        "currencyField": "PHP",
+        "rateField": 55.838
+    },
+    {
+        "currencyField": "SGD",
+        "rateField": 1.5017
+    },
+    {
+        "currencyField": "THB",
+        "rateField": 33.204
+    },
+    {
+        "currencyField": "ZAR",
+        "rateField": 16.1197
+    }
+]
+
+
+API Resources
+
+POST /api/Exchange/GetConvertedCurrencyRate
+
+Request body:
+{
+	"amount":"100",
+	"fromCurrency":"SGD",
+	"toCurrency":"USD"
+}
+
+Response body:
+73.13
